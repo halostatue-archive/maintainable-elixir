@@ -1,0 +1,17 @@
+{
+    "project_name": "Name of the project",
+    "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') | split('_') | reject('none') | join('_') }}",
+    "module_file": "{{ cookiecutter.project_slug }}",
+    "app_name": ":{{ cookiecutter.module_file }}",
+    "module_name": "{{ cookiecutter.module_file.split('_') | map('title') | join('') }}",
+    "mix_task_name": "{{ cookiecutter.module_name }}",
+    "escript_name": "{{ cookiecutter.project_slug }}",
+    "supervisor": true,
+    "github_username": "Your github username",
+    "full_name": "Your name",
+    "email": "Your email address (eq. you@example.com)",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "project_short_description": "A short description of the project",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
