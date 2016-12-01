@@ -1,6 +1,6 @@
 {
     "project_name": "Name of the project",
-    "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') | split('_') | reject('none') | join('_') }}",
+    "project_slug": "{{ (cookiecutter.project_name | lower | replace(' ', '_')).split('_') | reject('none') | join('_') }}",
     "module_file": "{{ cookiecutter.project_slug }}",
     "app_name": ":{{ cookiecutter.module_file }}",
     "module_name": "{{ cookiecutter.module_file.split('_') | map('title') | join('') }}",
