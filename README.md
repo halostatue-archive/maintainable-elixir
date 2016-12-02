@@ -20,7 +20,7 @@ Install the `cookiecutter` command line: `pip install cookiecutter`.
 Generate a new Cookiecutter template layout:
 
 ```bash
-cookiecutter gh:halostatue/cookiecutter-maintainable-elixir
+cookiecutter gh:halostatue/maintainable-elixir
 ```
 
 ## Contributing
@@ -39,13 +39,13 @@ cookiecutter gh:halostatue/cookiecutter-maintainable-elixir
 
 This project is licensed under the terms of the [MIT License](LICENSE.md)
 
-[travis.svg]: https://travis-ci.org/halostatue/cookiecutter-maintainable-elixir.svg
-[travis]: https://travis-ci.org/halostatue/cookiecutter-maintainable-elixir
-[tags.svg]: https://img.shields.io/github/tag/halostatue/cookiecutter-maintainable-elixir.svg
-[tags]: https://github.com/halostatue/cookiecutter-maintainable-elixir/tags
+[travis.svg]: https://travis-ci.org/halostatue/maintainable-elixir.svg
+[travis]: https://travis-ci.org/halostatue/maintainable-elixir
+[tags.svg]: https://img.shields.io/github/tag/halostatue/maintainable-elixir.svg
+[tags]: https://github.com/halostatue/maintainable-elixir/tags
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
 [Mamba]: http://nestorsalceda.github.io/mamba
-[repository]: https://github.com/halostatue/cookiecutter-maintainable-elixir
+[repository]: https://github.com/halostatue/maintainable-elixir
 [Elixir]: http://elixir-lang.org
 [elixir boilerplate]: https://mattvonrocketstein.github.io/heredoc/elixir-boilerplate.html
 [Elixir maintainability]: http://tech.findmypast.com/elixir-maintainability
